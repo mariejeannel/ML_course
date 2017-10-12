@@ -3,16 +3,6 @@
 
 import numpy as np
 
-<<<<<<< HEAD
-def build_poly(x, degree):
-    """polynomial basis functions for input data x, for j=0 up to j=degree."""
-    toReturn = []
-    for j in range(0,degree+1):
-        toReturn = np.append(toReturn,np.power(x,j))
-        
-       
-    return np.transpose(np.reshape(toReturn,(degree+1,len(x))))
-=======
 
 def build_poly(x, degree):
     """polynomial basis functions for input data x, for j=0 up to j=degree."""
@@ -23,4 +13,3 @@ def build_poly(x, degree):
     # by applying the polynomial basis to the input data
     # ***************************************************
     raise NotImplementedError
->>>>>>> upstream/master
